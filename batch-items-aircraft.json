@@ -1,0 +1,58 @@
+
+    "Aircraft": [
+        {  
+              "PutRequest" :{  
+              "Item": {
+                    "Type": {"S": "airplane"},
+                    "Model": {"S": "747"},
+                    "Manufacturer": {"S": "Boeing"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Type": {"S": "airplane"},
+                    "Model": {"S": "767"},
+                    "Manufacturer": {"S": "Boeing"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Type": {"S": "airplane"},
+                    "Model": {"S": "777"},
+                    "Manufacturer": {"S": "Boeing"}
+                }
+            }
+        },
+            {  
+              "PutRequest" :{  
+              "Item": {
+                    "Type": {"S": "helicopter"},
+                    "Model": {"S": "205"},
+                    "Manufacturer": {"S": "Bell"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Type": {"S": "helicopter"},
+                    "Model": {"S": "z-19"},
+                    "Manufacturer": {"S": "Harbin"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Type": {"S": "helicopter"},
+                    "Model": {"S": "AH-64D"},
+                    "Manufacturer": {"S": "Boeing"}
+                }
+            }
+        }
+    ]
+}
